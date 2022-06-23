@@ -15,6 +15,7 @@
     <button class="btn btn-primary" 
     [disabled]="userInput <= 0"
     (click)="Primenum()"
+    
     >find all prime numbers in {{userInput}} range</button><br>
     <div style ="padding: 10px;"></div>
     <p *ngIf="toggle">{{userInput}} --> {{Primelist}}</p>
